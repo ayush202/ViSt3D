@@ -9,11 +9,9 @@ Ayush Pande, Gaurav Sharma
 
 NeurIPS 2023
 
-![](our_results/basic_results1.mp4)
+https://github.com/ayush202/ViSt3D/assets/16152273/9939a190-1d95-4b23-8432-3098335a1b35
 
-![](our_results/basic_results2.mp4)
-
-![](our_results/basic_results3.mp4)
+https://github.com/ayush202/ViSt3D/assets/16152273/bdab7e87-e03d-4c6b-96a8-3c529d40c500
 
 ## Updates
 [2024-01-03] Dataset Uploaded. Please see motionclips_dataset.txt
@@ -22,7 +20,7 @@ NeurIPS 2023
 * motionclips_dataset: Each entry is of the form clip_<*clip_no*>,<*start_frame_no*>,<*youtube_url*>. Each clip consists of 16 frames. *start_frame_no* tells the frame number in the video where the clip starts. 
 
 ## Citation
-*If you find ideas useful for your research work, please cite:*
+If you find ideas useful for your research work, please cite:
 
 ```
 @inproceedings{pande2023vist3d,
