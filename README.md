@@ -14,6 +14,7 @@ https://github.com/ayush202/ViSt3D/assets/16152273/9939a190-1d95-4b23-8432-30983
 https://github.com/ayush202/ViSt3D/assets/16152273/bdab7e87-e03d-4c6b-96a8-3c529d40c500
 
 ## Updates
+[2024-03-05] Results content videos and style images uploaded. Please see data folder
 [2024-01-03] Dataset Uploaded. Please see motionclips_dataset.txt
 
 ## File Description
