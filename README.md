@@ -1,7 +1,7 @@
 # ViSt3D: Video Stylization with 3D CNN
 
 ## Overview
-This repository contains the dataset information used in the paper:
+This repository contains the dataset information and the inference code used in the paper:
 
 *ViSt3D: Video Stylization with 3D CNN*
 
@@ -14,9 +14,49 @@ https://github.com/ayush202/ViSt3D/assets/16152273/9939a190-1d95-4b23-8432-30983
 https://github.com/ayush202/ViSt3D/assets/16152273/bdab7e87-e03d-4c6b-96a8-3c529d40c500
 
 ## Updates
+[2024-07-28] Inference code and checkpoints added
+
 [2024-03-05] Results content videos and style images uploaded. Please see data folder
 
 [2024-01-03] Dataset Uploaded. Please see motionclips_dataset.txt
+
+## Prerequisites
+* Linux or macOS
+* Python 3
+* graphics card with memory >= 24 GB
+* RAM with memory >= 90 GB
+
+## Getting Started
+
+* Clone this repository
+
+```shell
+git clone https://github.com/ayush202/ViSt3D.git
+cd ViSt3D
+```
+* Install the requirements by running the below command:
+
+``` shell
+      pip install -r requirements.txt
+```
+
+## Inference
+
+* Download pretrained model from [Google Drive](https://drive.google.com/file/d/1izz7PiDEhiYwB-RA0Zki85RCNrt_M7qY/view?usp=sharing), and unzip:
+
+```shell
+unzip checkpoints.zip
+rm checkpoints.zip
+```
+* Configure content_video and style paths for desired content video and the style image in test_ViSt3D.sh.
+
+* Then, simply run:
+
+```shell
+bash test_ViSt3D.sh
+```
+* Check the results under **output/** folder.
+
 
 ## File Description
 * motionclips_dataset: Each entry is of the form clip_<*clip_no*>,<*start_frame_no*>,<*youtube_url*>. Each clip consists of 16 frames. *start_frame_no* tells the frame number in the video where the clip starts. 
