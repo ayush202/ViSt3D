@@ -287,7 +287,7 @@ with torch.no_grad():
         output_height1 = 0
         output_width1 = 0
 
-        video = cv2.VideoCapture(f'{args.content_video}.mp4')
+        video = cv2.VideoCapture(args.content_video)
         total_frames = int(video.get(cv2.CAP_PROP_FRAME_COUNT))
 
         if total_frames < 16:
