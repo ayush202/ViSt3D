@@ -1,7 +1,7 @@
 # ViSt3D: Video Stylization with 3D CNN
 <div align="center">
 
-[![Conference](https://img.shields.io/badge/NeurIPS%202023-000000)](https://openreview.net/pdf?id=2EiqizElGOa)&nbsp;
+[![Conference](https://img.shields.io/badge/NeurIPS%202023-000000)](https://openreview.net/pdf?id=2EiqizElGO)&nbsp;
 [![Project page](https://img.shields.io/badge/Project%20page-ViSt3D-pink)](https://ayush202.github.io/projects/ViSt3D.html)&nbsp;
 
 </div>
