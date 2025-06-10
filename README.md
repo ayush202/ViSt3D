@@ -1,9 +1,11 @@
 # ViSt3D: Video Stylization with 3D CNN
 <div align="center">
+
 [![Conference](https://img.shields.io/badge/NeurIPS%202023-000000)](https://openreview.net/pdf?id=2EiqizElGOa)&nbsp;
-[![project page](https://img.shields.io/badge/Project%20page-ViSt3D-pink)](https://ayush202.github.io/projects/ViSt3D.html)&nbsp;
-      
+[![Project page](https://img.shields.io/badge/Project%20page-ViSt3D-pink)](https://ayush202.github.io/projects/ViSt3D.html)&nbsp;
+
 </div>
+
 ## Overview
 This repository contains the dataset information and the inference code used in the paper:
 
